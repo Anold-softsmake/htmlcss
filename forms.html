@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FORMS</title>
+</head>
+<body>
+    <!-- Form inputs text , email, phone ,date,password
+      ,radio button checkbox selectdrop down-->
+    <form>
+        
+        <form action="">
+            <label for="FULL NAME">FULL NAME:</label>
+           <input type="text" name="FULL NAME" id="FULL NAME" placeholder="Enter FULL NAME">
+
+            <label for="email">EMAIL:</label>
+           <input type="email" name="email" id="email" placeholder="Enter email">
+
+            <label for="phone">PHONE:</label>
+           <input type="tel" name="phone" id="phone" placeholder="Enter phone">
+
+            <label for="date">DATE:</label>
+              <input type="date" name="date" id="date" placeholder="Enter date" required min="2024-01-01" max="2024-12-31">  
+              
+              <label for="password">PASSWORD:</label>
+              <input type="password" name="password" id="password" placeholder="Enter password">
+
+              <label for="gender">GENDER:</label>
+                <input type="radio" name="gender" id="male" value="male">
+                <label for="male">MALE:</label>
+                <input type="radio" name="gender" id="female" value="female">
+                <label for="female">FEMALE:</label>
+
+                <input type="checkbox" name="subscribe" id="subscribe" value="subscribe">
+                <label for="subscribe">SUBSCRIBE:</label>
+
+                <label for="county">COUNTY:</label>
+                <select name="county" id="county">
+                    <option value="nairobi">Nairobi</option>
+                    <option value="mombasa">Mombasa</option>
+                    <option value="kisumu">Kisumu</option>
+                </select>
+
+                <button type="submit">SUBMIT</button>
+
+              
+        </form>
+        
+    </form>
+</body>
+</html>
