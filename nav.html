@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Navigation</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Redaction:ital,wght@0,400;0,700;1,400&display=swap');
+        *{
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+    body{
+        font-family: "Redaction", serif;
+    }
+    
+        nav{ 
+            background-color: #42ee42;
+            color: #fff;
+            padding: 10px;
+            display: flex;  
+            justify-content: space-between;
+            border-bottom: 2px solid #650d0d;
+        }
+        .nav-items ul{
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: space-between  ;
+            list-style: none;
+
+        }
+        .nav-items li{
+            margin-right: 20px;
+            margin-left: 20px;
+        }
+        .nav-items a{
+          text-decoration: none;
+          color: #4149cf; 
+          text-transform: capitalize;   
+        }
+      .nav-items a:hover{
+        color: #cf1c1c;
+        text-decoration: underline;
+      }
+       /*git additional styling for the navigation bar*/
+
+        
+    </style>
+</head>
+<body>
+
+    <!--semantic tags-->
+    <nav>
+        <div class="nav-items">
+            <img src="images/div image/app.png" alt="company logo">
+            
+            <ul>
+                <li><a href="index.html">HOME</a></li>
+                <li><a href="responsive.html">RESPONSIVE</a></li>
+                <li><a href="forms.html">FORMS</a></li>
+                <li><a href="divs.html">DIVS</a></li>
+                <li><a href="#">TABLES</a></li>
+            </ul>
+        </div>
+    </nav>
+    <h2>
+        <p>Welcome to the navigation page! Use the links above to explore different sections of the website.</p>
+    </h2>
+    <footer>
+        <p>&copy; 2023 My Website. All rights reserved.</p>
+    </footer>
+    
+</body>
+</html>
